@@ -81,3 +81,27 @@ __ps -ef__
 |Stopped(SIGSTOP)|SIGSTOP 신호가 작업을 일시 중단|
 |Stopped(SIGTTIN)|SIGTTIN 신호가 작업을 일시 중단|
 |Stopped(SIGTTOU)|SIGTTOU 신호가 작업을 일시 중단|
+
+
+### 리눅스 명령어 kill
+---
+
+* kill : 프로세스에 특정한 신호를 보내는 명령어 일반적으로 프로세스를 종료 시킬 때 사용
+
+__옵션__
+
+1) -l: signl의 종류를 출력
+
+__주요 시그널__
+
+|시그널|영어|설명|
+|---|---|:---:|
+|sighup|Hang up|세션이 종료될 때 시스템이 내리는 시그널|
+|sigint|interrupt|Crtl + C, 종료 요청 시그널|
+|sigkill|kill|강제종료 시그널|
+|sigsegv|segment violation|메모리 침범이 일어날 때 시스템이 보내는 시그널|
+|sigterm|teminate|기본 값, 종료 요청 시그널|
+|sigtstp|temporary stop|Crtl + z 일시 중지 요청 시그널|
+
+
+
