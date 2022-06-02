@@ -20,4 +20,13 @@
    8) 1 : CPU Core별로 사용량 보여줌
 
 
-<img width="500" alt="스크린샷 2018-07-18 20 25 32" src="https://user-images.githubusercontent.com/106725929/171567728-08303b63-998b-469c-81f3-0ef4f2eaff08.png">
+#### top -b -n 1
+<img width="300" alt="스크린샷 2018-07-18 20 25 32" src="https://user-images.githubusercontent.com/106725929/171567728-08303b63-998b-469c-81f3-0ef4f2eaff08.png">
+* 3:58 3시간 58분 전에 서버가 구동
+* load average: 현재 시스템이 얼마나 일을 하는지를 나타냄.
+* Tasks: 프로세스 개수 
+* Kib Mem,Swap: 각 메모리의 사용량
+* PR: 실행 우선순위
+* VIRT,RES,SHR : 메모리 사용량
+* S: 프로세스 상태
+
